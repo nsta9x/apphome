@@ -1,7 +1,7 @@
 import './App.css';
 import { Component } from 'react';
 import NavBar from './components/NavBar/NavBar.jsx';
-/* import DeviceManagement from './components/DeviceManagement'; */
+import DeviceManagement from './components/DeviceManagement/DeviceManagement.jsx';
 /* import Menu from './components/Menu'; */
 
 class App extends Component {
@@ -22,10 +22,12 @@ class App extends Component {
           username = {this.data.username}
 
         ></NavBar>
-        {/* <DeviceManagement
+
+        <DeviceManagement
           listDevice={this.data.deviceList}
         ></DeviceManagement>
-        <Menu></Menu> */}
+
+        {/* <Menu></Menu> */}
       </div>
     )
   }
